@@ -1,0 +1,30 @@
+package sec1;
+
+public class Example1 {
+
+	public static void main(String[] args) {
+		int a = 100;
+		int b = 140;
+		
+		int c = a + b;
+		System.out.println("a+b="+c);
+		
+		int d = a - b;
+		System.out.println("a-b="+d);
+		
+		int e = a * b;
+		System.out.println("a*b="+e);
+		
+		float f = (float) b / a;
+		System.out.println("b/a="+f);	//나누기 (변수 타입과 형변환 주의)
+		
+		int g = b % a;
+		System.out.println("b%a="+g);	//나누기 후 소숫점 아래 자리수를 표기함
+		
+		int h = b / 0;
+		System.out.println("b/0="+h);	//Infinity, by zero
+		
+		int i = '김' / b;
+		System.out.println("김/b="+i);	//NaN (Not a Number)
+	}
+}
