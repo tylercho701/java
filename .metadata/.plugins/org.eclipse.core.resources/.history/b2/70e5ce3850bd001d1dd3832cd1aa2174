@@ -1,0 +1,14 @@
+package sec2;
+
+public class Example2 {
+
+	public static void main(String[] args) {
+		// 자동 형변환 : 작은 -> 큰
+		byte a = 10;
+		short b = a;
+		int c = b;
+		float d = c;
+		long e = d;
+	}
+
+}

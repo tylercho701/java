@@ -1,0 +1,16 @@
+package sec2;
+
+public class Example4 {
+
+	public static void main(String[] args) {
+		// 문자열을 기본 타입으로 형변환 (문자열이 숫자일 때)
+		
+		String a = "1234";
+		String b = "7979";
+		
+		System.out.println(a+b);
+		
+		System.out.println(Integer.parseInt(a+b));
+	}
+
+}

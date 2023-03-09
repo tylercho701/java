@@ -1,0 +1,14 @@
+package sec3;
+
+public class Example1 {
+
+	public static void main(String[] args) {
+		// system.out.printf로 형 변환하여 출력,  %*
+		// 단, 줄 바꿈(ln)이 없기 때문에 "\n"을 뒤에 붙여 줌
+		
+		int i = 123;
+		
+		System.out.printf("i를 10진수로 출력 : %d\n", i);
+	}
+
+}

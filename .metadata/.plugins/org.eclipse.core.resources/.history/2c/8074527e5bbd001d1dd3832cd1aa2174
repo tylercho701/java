@@ -1,0 +1,27 @@
+package sec3;
+
+public class Example1 {
+
+	public static void main(String[] args) {
+		// system.out.printf로 형 변환하여 출력,  %*
+		// 단, 줄 바꿈(ln)이 없기 때문에 "\n"을 뒤에 붙여 줌
+		
+		int i = 123;
+		
+		System.out.printf("i를 10진수로 출력 : %d\n", i);
+		System.out.printf("i를 2진수(참 / 거짓)로 출력 : %b\n", i);
+		System.out.printf("i를 8진수로 출력 : %o\n", i);
+		System.out.printf("i를 16진수로 출력 : %x\n", i);
+		// System.out.printf("i를 지수로 출력 : %e\n", i);
+		
+		char a = 'C';
+		char b = 'H';
+		char c = 'O';
+		
+		System.out.printf("문자 출력 : %c%c%c\n", a, b, c);
+		
+		String d = "tyler";
+		System.out.printf("문자열 출력 : %s\n", d);
+	}
+
+}

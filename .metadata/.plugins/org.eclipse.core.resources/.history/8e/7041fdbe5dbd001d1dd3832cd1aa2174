@@ -1,0 +1,28 @@
+package sec3;
+
+public class Example2 {
+
+	public static void main(String[] args) {
+		// 정수, 문자열, 실수 지시자 세부적으로 출력 지시 (제어)
+		
+		int d = 1234;
+		double f = 2345.123456789d;
+		String s = "I\'m a boy";
+		
+		System.out.printf("%d\n", d);	// 그대로 출력
+		System.out.printf("%6d\n", d);	// 자릿수 6자리보다 작으면, 해당 숫자를 출력하고, 왼쪽에 공백이 발생.
+		System.out.printf("%-6d\n", d);	// 자릿수 6자리보다 작으면, 해당 숫자를 출력하고, 오른쪽에 공백이 발생.
+		System.out.printf("%06d\n", d);	// 자릿수 6자리보다 작으면, 해당 숫자를 출력하고, 왼쪽에 0으로 채움.
+		//System.out.printf("%.2d\n", d);	// 실수일 경우, 소숫점 2자리까지 출력.
+		
+		System.out.printf("%f\n", f);
+		System.out.printf("%15f\n", f);
+		System.out.printf("%.8f\n", f);
+		System.out.printf("%9.4f\n", f);
+		
+		System.out.printf("%s", s);
+		System.out.printf("%15s", s);
+		System.out.printf("%-6s", s);
+	}
+
+}

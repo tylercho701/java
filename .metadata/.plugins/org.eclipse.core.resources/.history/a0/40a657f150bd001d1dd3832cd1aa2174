@@ -1,0 +1,12 @@
+package sec2;
+
+public class Example3 {
+
+	public static void main(String[] args) {
+		// 형 변환의 예1
+		int kor = 80;
+		int eng = 70;
+		int mat = 95;
+	}
+
+}
