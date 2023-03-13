@@ -12,6 +12,7 @@ public class Example3 {
 		// 평균이 66~69 D+, 63~65 D0, 60~62 D-
 		// 평균이 60 미만이면 F 로 학점 계산
 		
+		
 		Scanner sc = new Scanner(System.in);
 		
 		int edps ;
@@ -67,5 +68,54 @@ public class Example3 {
 		System.out.println("총점 : "+tot);
 		System.out.println("평균 : "+avg);
 		System.out.println("학점 : "+reward);
+		
+		
+		
+		/*	아래는 연
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("edps = ");
+		int edps = sc.nextInt();
+		
+		System.out.println("sp = ");
+		int sp = sc.nextInt();
+		
+		System.out.println("db = ");
+		int db = sc.nextInt();
+		
+		int tot = edps + sp + db;
+		double avg = tot / 3.0f;
+		
+		String reward = "";
+		
+		if (avg >= 90) {
+			reward = "A";
+		} else if (avg >= 80) {
+			reward = "B";
+		} else if (avg >= 70) {
+			reward = "C";
+		} else if (avg >= 60) {
+			reward = "D";
+		} else {
+			reward = "F";
+		}
+		
+		if ((int) avg == 100) reward = "A+";
+		if ((int) avg <= 60) reward = "F";
+		
+		if ((int) avg % 10 >= 6) {
+			reward = reward + "+";
+		} else if ((int) avg % 10 >= 3) {
+			reward = reward + "0";
+		} else {
+			reward = reward + "-";
+		}
+		
+
+		System.out.println("tot = "+tot);
+		System.out.println("avg = "+avg);
+		System.out.println("reward = "+reward);
+		*/
+		
 	}
 }
