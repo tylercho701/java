@@ -21,16 +21,15 @@ public class Example5 {
 		//do~while
 		int i = 0;
 		int sum = 0;
-		/* 
+		
 		do {
 			i++;
 			sum = sum + i;
 		}
-		while (sum>=1){
+		while (sum >= 1); {
 			i++;
 			sum = sum + i + 1;
 		}
 		System.out.println(sum);
-		*/
 	}
 }
