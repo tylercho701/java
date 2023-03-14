@@ -1,0 +1,19 @@
+package sec1;
+
+public class Example6 {
+
+	public static void main(String[] args) {
+				/*
+		 java 12 버전 이상에서 사용 가능
+		 '->' (yield)
+		*/
+		
+		float num1 = (float) Math.random();
+		int num = (float) Math.random();
+		
+		System.out.println(num);
+		
+		
+		
+	}
+}

@@ -1,0 +1,16 @@
+package sec2;
+
+public class Example1 {
+
+	public static void main(String[] args) {
+		// 반복실행문
+		// for(초기화; 조건식(=반복기간); 증감식){
+		int i;
+		int tot = 0;
+		
+		for (i=0; tot<=10; i++){
+			tot = tot + i;
+		}
+		System.out.println(i);
+	}
+}
