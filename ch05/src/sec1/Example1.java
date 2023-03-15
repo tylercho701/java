@@ -12,15 +12,12 @@ public class Example1 {
 			System.out.print(arr[i]+"\t\n");
 		}
 		
-		int arr1[][][][] = {{{{1, 70, 80, 90},{2, 70, 80, 80},{3, 90, 70, 85},{4, 96, 72, 89}}}};
+		int arr1[][] = {{1, 70, 80, 90},{2, 96, 72, 89}};
 		System.out.println("번호\t국어\t수학\t영어");
 		for (int o=0; o<3; o++){
 			for (int j=0; j<3; j++){
-				for (int k=0; k<3; k++){
-					for (int l=0; l<3; l++)
-						System.out.print(arr1[o][j][k][l]+"\n");
+						System.out.print(arr1[o][j]+"\n");
 				} System.out.println();
-			} System.out.println();	
-		} System.out.println();
+		}
 	}
 }

@@ -15,7 +15,7 @@ public class Example3 {
 		
 		System.out.println("arr1 = "+arr1);
 		System.out.println("arr2 = "+arr2);
-		System.out.println("arr3 = "+arr3);		// 데이터가 아닌 포인터만 출력
+		System.out.println("arr3 = "+arr3);		// 데이터가 아닌 포인터(주소)만 출력
 		
 		System.out.println();
 		for(int data : arr1){
