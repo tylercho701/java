@@ -1,0 +1,9 @@
+package sec2;
+
+public class Example1 {
+
+	public static void main(String[] args) {
+		// 문자열과 문자 배열
+		
+	}
+}

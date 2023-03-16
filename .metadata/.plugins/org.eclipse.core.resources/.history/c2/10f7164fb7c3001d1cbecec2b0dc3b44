@@ -1,0 +1,13 @@
+package sec2;
+
+public class Example1 {
+
+	public static void main(String[] args) {
+		// 문자열과 문자 배열
+		String strl = "java program";
+		char[] c_arr = {'j','a','v','a',' ','p','r','o','g','r','a','m'};
+		
+		System.out.println(strl);
+		
+	}
+}
