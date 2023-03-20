@@ -1,0 +1,7 @@
+package sec1;
+
+public class Tire {
+	String company = "Continental";
+	int size(inches) = 20;
+	
+}

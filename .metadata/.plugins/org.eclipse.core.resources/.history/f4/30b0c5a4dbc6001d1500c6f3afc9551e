@@ -1,0 +1,32 @@
+package sec1;
+
+public class Engine {
+	String fuel = "gasolin";
+	int cc = 3498;
+	int 배기량 = 4;
+	public String getFuel() {
+		return fuel;
+	}
+	public void setFuel(String fuel) {
+		this.fuel = fuel;
+	}
+	public int getCc() {
+		return cc;
+	}
+	public void setCc(int cc) {
+		this.cc = cc;
+	}
+	public int get배기량() {
+		return 배기량;
+	}
+	public void set배기량(int 배기량) {
+		this.배기량 = 배기량;
+	}
+	@Override
+	public String toString() {
+		return "Engine [fuel=" + fuel + ", cc=" + cc + ", 배기량=" + 배기량 + "]";
+	}
+	
+	
+
+}

@@ -1,0 +1,53 @@
+package sec2;
+
+public class Food2 {
+	String name;
+	int quantity;
+	int weight;
+	
+	public Food2() {
+		
+	}
+	
+	public Food2(String "제육볶음") {
+		this.name = name;	
+	}
+	
+	public Food2(String name, int quantity) {
+		this.name = name;
+		this.quantity = 2;
+	}
+	
+	public Food2(String name, int quantity, int weight) {
+		this.name = name;
+		this.quantity = quantity;
+		this.weight = 320;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+	public int getWeight() {
+		return weight;
+	}
+	public void setWeight(int weight) {
+		this.weight = weight;
+	}
+	@Override
+	public String toString() {
+		return "Food2 [name=" + name + ", quantity=" + quantity + ", weight="
+				+ weight + "]";
+	}
+	
+	
+
+}

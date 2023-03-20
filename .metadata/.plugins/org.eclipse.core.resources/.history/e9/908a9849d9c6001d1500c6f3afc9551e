@@ -1,0 +1,16 @@
+package sec1;
+
+public class CarEx1 {
+
+	public static void main(String[] args) {
+		// 
+		Car mycar = new Car();
+		System.out.println(mycar.getCompany());
+		mycar.setCompany("기아");
+		System.out.println(mycar.getCompany());
+		
+		// car1의 body 설정
+		Body body1 = new Body();
+		System.out.println(body1.toString());
+	}
+}
