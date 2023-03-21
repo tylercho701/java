@@ -3,4 +3,11 @@
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="javax.naming.Name"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="sec4.MathMetics"/>
+<fullyQualifiedTypeName name="sec5.Mix"/>
+<fullyQualifiedTypeName name="dao.Mix2"/>
+<fullyQualifiedTypeName name="sec1.Mammal"/>
 </qualifiedTypeNameHistroy>

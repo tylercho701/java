@@ -1,0 +1,11 @@
+package sec5;
+
+import dao.Product;
+
+public class ProductEx1 {
+
+	public static void main(String[] args) {
+		Product pro1 = new Product();
+		
+	}
+}

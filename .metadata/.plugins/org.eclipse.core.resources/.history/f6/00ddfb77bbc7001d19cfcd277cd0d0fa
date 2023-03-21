@@ -1,0 +1,16 @@
+package sec1;
+
+public class Mammal extends Animal {
+	private String foods;
+	private String birthType;
+	
+	
+	
+	@Override
+	public void cry() {
+		// TODO Auto-generated method stub
+		super.cry();
+	}
+	
+	
+}

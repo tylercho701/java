@@ -1,0 +1,13 @@
+package sec3;
+
+public class ShapeEx {
+
+	public static void main(String[] args) {
+		Shape sh1 = new Shape();
+		sh1.shapeType = 1;
+		sh1.length = 30;
+		
+		System.out.println(sh1.getResult(30));
+		
+	}
+}

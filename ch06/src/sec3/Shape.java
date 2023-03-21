@@ -25,10 +25,8 @@ public class Shape {
 		this.height = height;
 	}
 	public double getResult(int length) {
-		if(this.shapeType == 0){
-			return ((length * length) * 3.14);
+		return ((length * length) * 3.14);
 		}
-	}
 	public double getResult(int length, int height) {
 		if(this.shapeType ==3 ) {
 			return (length * height) / 2;

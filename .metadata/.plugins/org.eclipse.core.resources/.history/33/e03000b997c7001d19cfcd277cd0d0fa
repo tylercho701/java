@@ -1,0 +1,17 @@
+package sec4;
+
+import java.util.Date;
+
+public class Board {
+	static String title = "제목";
+	static String content = "내용";
+	static String con;
+	static Date resdate;
+	static String author = "관리자";
+	static String allData;
+	
+	static {		// 정적 블록 (static block)
+		con = title + content;
+		allData = con + author;
+	}
+}
