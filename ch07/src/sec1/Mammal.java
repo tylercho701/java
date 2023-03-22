@@ -22,6 +22,7 @@ public class Mammal extends Animal {
 	}
 	
 	// 상속 받은 메소드 (getter, setter, cry)
+	// 오버라이딩(overriding) : 상속 받은 메소드에 대하여 처리할 내용을 새로 기술하는 것
 
 	@Override
 	public void cry() {

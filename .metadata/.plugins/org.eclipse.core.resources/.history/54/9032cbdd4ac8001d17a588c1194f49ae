@@ -1,0 +1,30 @@
+package quiz;
+
+public class Q13 {
+	String name;
+	String id;
+	String password;
+	int age;
+	
+public Q13 (){
+	this("홍길동");
+}
+
+public Q13(String name) {
+	this(name, "hong");
+}
+
+public Q13(String name, String id) {
+	this(name, id, "1234");
+}
+
+public Q13(String name, String id, String password){
+	this(name, id, password, 21);
+}
+
+public Q13(String name, String id, String password, int age) {
+	this.name = name;
+	this.id = id;
+	this.password = password;
+	this.age = age;
+}

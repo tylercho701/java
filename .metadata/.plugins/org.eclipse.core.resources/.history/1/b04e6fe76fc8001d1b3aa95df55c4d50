@@ -1,0 +1,13 @@
+package sec2;
+
+public class NonMember {
+	String 
+	
+	
+	
+	
+	@Override
+	public void getCustom() {
+		System.out.println("비회원 고객님, 감사합니다.");
+	}
+}

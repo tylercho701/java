@@ -1,0 +1,37 @@
+package sec2;
+
+public class NonMember extends Customer {
+	private String tempId;
+	private String tempPw;
+	private int orderNum;
+	
+	public NonMember() {
+	}
+	
+	
+	
+	public String getTempId() {
+		return tempId;
+	}
+	public void setTempId(String tempId) {
+		this.tempId = tempId;
+	}
+	public String getTempPw() {
+		return tempPw;
+	}
+	public void setTempPw(String tempPw) {
+		this.tempPw = tempPw;
+	}
+	public int getOrderNum() {
+		return orderNum;
+	}
+	public void setOrderNum(int orderNum) {
+		this.orderNum = orderNum;
+	}
+
+
+	@Override
+	public void getCustom() {
+		System.out.println("비회원 고객님, 감사합니다.");
+	}
+}

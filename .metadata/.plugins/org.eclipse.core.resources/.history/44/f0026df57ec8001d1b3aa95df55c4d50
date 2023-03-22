@@ -1,0 +1,9 @@
+package sec3;
+
+import sec2.*;
+
+public class SuperSubObject {
+	// 객체 선언
+	Member cus = new Member();
+	cus.setName("조고객");
+}

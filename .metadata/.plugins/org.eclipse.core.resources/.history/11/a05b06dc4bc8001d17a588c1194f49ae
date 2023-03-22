@@ -1,0 +1,11 @@
+package quiz;
+
+public class MemberService {
+	String id = "hong";
+	String password = "12345";
+	
+public void login(String id, String password){
+	this.id = "hong";
+	this.password = "12345";
+}
+}
