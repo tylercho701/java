@@ -1,0 +1,14 @@
+package sec2;
+
+public class Member implements User {
+
+	@Override
+	public String method1() {
+		return "회원";
+	}
+
+	@Override
+	public int method2() {
+		return 2;
+	}	
+}

@@ -1,0 +1,6 @@
+package sec2;
+
+public interface User {
+	public String method1();
+	public String method2();
+}

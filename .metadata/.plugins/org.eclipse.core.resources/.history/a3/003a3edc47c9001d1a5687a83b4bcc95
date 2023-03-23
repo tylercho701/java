@@ -1,0 +1,14 @@
+package sec2;
+
+public class Mix implements User {
+
+	@Override
+	public String method1() {
+		return null;
+	}
+
+	@Override
+	public int method2() {
+		return 0;
+	}
+}

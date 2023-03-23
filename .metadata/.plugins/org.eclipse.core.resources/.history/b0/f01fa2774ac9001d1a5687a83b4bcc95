@@ -1,0 +1,7 @@
+package sec2;
+
+public interface Mix extends User, Guest {
+	public String method1();
+	public int method2();
+
+}
