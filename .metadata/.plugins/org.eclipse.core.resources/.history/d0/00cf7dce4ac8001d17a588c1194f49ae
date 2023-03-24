@@ -1,8 +1,0 @@
-package quiz;
-
-public class Q13 {
-	String name;
-	String id;
-	String password;
-	int age;
-}

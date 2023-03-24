@@ -1,8 +1,0 @@
-package sec4;
-
-public class BoardEx {
-
-	public static void main(String[] args) {
-		Board b1 = new Board();
-	}
-}
