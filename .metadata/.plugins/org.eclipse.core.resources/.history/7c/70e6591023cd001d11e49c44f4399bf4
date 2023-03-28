@@ -1,0 +1,9 @@
+package creational.abstractfactory;
+
+public class RoundedRectangle implements Shape {
+
+	@Override
+	public void shape() {
+		System.out.println("직사각형을 그립니다.");	
+	}
+}

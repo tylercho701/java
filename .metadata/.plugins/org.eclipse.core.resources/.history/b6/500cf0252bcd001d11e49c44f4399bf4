@@ -1,0 +1,9 @@
+package creational.factorymethod;
+
+public class ShapeFactory {
+	void Shape getShape(String shapeType){
+		if(shapeType != null){
+			
+		}
+	}
+}

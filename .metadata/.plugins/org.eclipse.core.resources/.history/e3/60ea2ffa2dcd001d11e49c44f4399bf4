@@ -1,0 +1,9 @@
+package creational.singleton;
+
+public class SingleObjectEx1 {
+	public static void main(String[] agrs){
+		SingleObject singleObject;
+		singleObject = new SingleObject();
+		System.out.println(singleObject.getInstance());
+	}
+}
