@@ -14,4 +14,6 @@
 <fullyQualifiedTypeName name="creational.abstractfactory.Shape"/>
 <fullyQualifiedTypeName name="creational.abstractfactory.AbstractFactory"/>
 <fullyQualifiedTypeName name="creational.singleton.SingleObjectEx1"/>
+<fullyQualifiedTypeName name="sec1.Outer.Inner1"/>
+<fullyQualifiedTypeName name="sec2.Button.ClickListener"/>
 </qualifiedTypeNameHistroy>

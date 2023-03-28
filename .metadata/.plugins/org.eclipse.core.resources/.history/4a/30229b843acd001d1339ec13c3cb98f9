@@ -1,0 +1,6 @@
+package sec2;
+
+public class Car {
+	private Tire tire1 = new Tire();
+	tire1.roll();
+}

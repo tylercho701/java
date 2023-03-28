@@ -1,0 +1,23 @@
+package sec1;
+
+public class A {
+	int field1;
+	String field2;
+	class b {
+		
+	}
+	public class c {
+		
+	}
+	private class d {
+		
+	}	
+	static class e {
+		
+	}
+	void f(){
+		class g {
+			
+		}
+	}
+}

@@ -1,0 +1,14 @@
+package sec2;
+
+public class CarEx1 {
+
+	public static void main(String[] args) {
+		Car car = new Car();
+		
+		car.run1();
+		
+		car.run3();
+		
+		car.run4(new tire);
+	}
+}
