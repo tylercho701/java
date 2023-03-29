@@ -1,0 +1,15 @@
+package sec1;
+
+public class ExceptionEx8 {
+
+	public static void main(String[] args) {
+		/*
+		 ArithmethicException
+		 NullPointerException
+		 NumberFormatException
+		 InderOutOfBoundsException
+		 NoSuchElementException
+		 IllegalArgumentException*/
+	}
+
+}

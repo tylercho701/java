@@ -1,0 +1,16 @@
+package sec2;
+
+public class TryCatchFinally {
+
+	public static void main(String[] args) {
+		try {
+		String data = null;
+		// data = "조";
+		System.out.println(data.toString());
+		} catch(Exception e){
+			System.out.println("예외 발생");
+		} finally {
+			System.out.println("프로그램 종료");
+		}
+	}
+}

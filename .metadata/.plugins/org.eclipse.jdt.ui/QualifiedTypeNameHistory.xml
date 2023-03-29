@@ -16,4 +16,19 @@
 <fullyQualifiedTypeName name="creational.singleton.SingleObjectEx1"/>
 <fullyQualifiedTypeName name="sec1.Outer.Inner1"/>
 <fullyQualifiedTypeName name="sec2.Button.ClickListener"/>
+<fullyQualifiedTypeName name="pack1.Member"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.Class"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.lang.OutOfMemoryError"/>
+<fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+<fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+<fullyQualifiedTypeName name="java.lang.ClassCastException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="sec2.CustomException"/>
+<fullyQualifiedTypeName name="sec2.UserException"/>
 </qualifiedTypeNameHistroy>
