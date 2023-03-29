@@ -20,6 +20,7 @@ public class RemoteControlEx {
 			public void turnOff() {
 				System.out.println("냉장고의 전원을 켭니다.");				
 			}
-		});
+		}
+		);
 	}
 }
