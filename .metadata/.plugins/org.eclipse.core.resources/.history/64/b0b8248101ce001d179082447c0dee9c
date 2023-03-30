@@ -1,8 +1,0 @@
-package sec2;
-
-public class ExceptionThrows {
-
-	public static void main(String[] args) {
-		Class.forName("oracle.jdbc.driver.OracleDriver");
-	}
-}

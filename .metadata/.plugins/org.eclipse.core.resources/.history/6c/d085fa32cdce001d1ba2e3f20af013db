@@ -1,0 +1,23 @@
+package sec4;
+
+public class StringEx2 {
+
+	public static void main(String[] args) {
+		String data1 = "조교행";
+		String data2 = new StringBuilder().append("tyler").toString();
+		System.out.println(data1);
+		System.out.println(data2);
+		data1 = new StringBuilder().append("whrygod").toString();
+		System.out.println(data1);
+		
+		String sb = "프로그래밍서비스";
+		StringBuilder sb1 = new StringBuilder(sb);
+		System.out.println(sb1);
+		
+		sb1.insert(0,"웹");
+		System.out.println(sb1);
+		
+		sb1.delete(6, 9);
+		System.out.println(sb1);
+	}
+}

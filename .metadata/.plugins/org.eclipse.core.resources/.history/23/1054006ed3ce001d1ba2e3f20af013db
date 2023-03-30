@@ -1,0 +1,17 @@
+package sec5;
+
+public class WrapperEx1 {
+
+	public static void main(String[] args) {
+		// references : Wrapper(Byte, Long, Integer, Double, Float, etc), Class
+		
+		int a = 1;
+		Integer b = a;
+		int c = b;
+		
+		float d = 0.1f;
+		Float e = d;
+		double f = d;
+		
+	}
+}

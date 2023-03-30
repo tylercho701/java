@@ -1,0 +1,26 @@
+package sec4;
+
+public class StringEx2 {
+
+	public static void main(String[] args) {
+		String data1 = "조교행";
+		String data2 = new StringBuilder().append("tyler").toString();
+		System.out.println(data1);
+		System.out.println(data2);
+		data1 = new StringBuilder().append("whrygod").toString();
+		System.out.println(data1);
+		
+		// 특정 문자열 추가
+		String data3 = "타일러";
+		data3 = new StringBuilder().insert(1,"조교").toString();
+		
+		// 특정 문자열 삭제
+		
+		StringBuilder data4 = new StringBuilder(data3);
+		data4.delete(1,2);
+		System.out.println(data4);
+		
+		// 특정 문자열 중간 삽입
+		
+	}
+}

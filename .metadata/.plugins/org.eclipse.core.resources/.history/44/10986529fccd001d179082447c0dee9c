@@ -1,8 +1,0 @@
-package sec2;
-
-public class StepException {
-
-	public static void main(String[] args) {
-		// 단계적 예외 처리
-	}
-}
