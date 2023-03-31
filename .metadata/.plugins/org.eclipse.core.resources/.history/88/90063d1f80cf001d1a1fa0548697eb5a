@@ -1,0 +1,13 @@
+package sec6;
+
+import java.util.regex.Pattern;
+
+public class RegEx1 {
+	
+	public static void main(String[] args){
+		String pattern = "^[0-9]*$";
+		String val = "a123456789";
+		
+		boolean regex = Pattern.matches(pattern, val);
+	}
+}

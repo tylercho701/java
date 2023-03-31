@@ -1,0 +1,18 @@
+package sec5;
+
+public class MathEx1 {
+
+	public static void main(String[] args) {
+		int a = 1004;
+		float b = 3.14f;
+		long c = 6553600;
+		double d = 26500.3425d;
+		
+		int e = -1004;
+		float f = 3.65f;
+		long g = -653600;
+		double h = 26500.7425d;
+		
+		
+	}
+}

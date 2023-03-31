@@ -1,0 +1,11 @@
+package sec6;
+
+public class DecimalFormatEx1 {
+
+	public static void main(String[] args) {
+		int i = 123456789;
+		double j = 12345.6789;
+		
+		DecimalFormat df new DecimalFormat("##########");
+	}
+}
