@@ -1,0 +1,10 @@
+package sec1;
+
+public class Student2 <T>{
+	public T field2;
+
+	public Student2(T field2) {
+		super();
+		this.field2 = field2;
+	}
+}

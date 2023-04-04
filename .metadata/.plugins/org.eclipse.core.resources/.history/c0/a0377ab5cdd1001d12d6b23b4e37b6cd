@@ -1,0 +1,14 @@
+package sec2;
+
+public class GenericEx1 {
+
+	public static void main(String[] args) {
+		Generic<Car> a = new Generic<>();		
+		Car car = new Car();
+		
+		a.setProduct(car);
+		a.getProduct().run();
+		
+		
+	}
+}

@@ -1,0 +1,14 @@
+package sec2;
+
+public class Example1 {
+
+	public static void main(String[] args) {
+		Thread1 ex1 = new Thread1();
+		Thread1 ex2 = new Thread1();
+		Thread t1 = new Thread("A");
+		Thread t2 = new Thread("B");
+		
+		System.out.println(t1.currentThread().getName(););
+		t2.currentThread().getName();
+	}
+}

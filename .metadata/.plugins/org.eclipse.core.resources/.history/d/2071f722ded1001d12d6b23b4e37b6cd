@@ -1,0 +1,13 @@
+package sec3;
+
+public class Course {
+	public getCourse1(Applicant<?> applicant){
+		
+	}
+	public getCourse2(Applicant<? extends Student> applicant){
+			
+		}
+	public getCourse3(Applicant<? super Worker> applicant){
+		
+	}
+}

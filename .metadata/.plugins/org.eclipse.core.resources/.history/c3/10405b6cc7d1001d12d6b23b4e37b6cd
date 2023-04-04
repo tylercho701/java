@@ -1,0 +1,11 @@
+package sec1;
+
+public class MemberEx1 {
+
+	public static void main(String[] args) {
+		Member<String, Integer> m1 = new Member<>();
+		
+		m1.setId() = "ckh";
+		m1.setNo(no) = 1004;
+	}
+}
