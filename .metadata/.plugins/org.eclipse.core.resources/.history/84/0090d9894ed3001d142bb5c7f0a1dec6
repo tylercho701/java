@@ -1,0 +1,12 @@
+package sec1;
+
+import java.util.ArrayList;
+
+public class CastingListEx1 {
+
+	public static void main(String[] args) {
+		// ArrayList를 배열로 / 배열을 arrayList로		
+		ArrayList<String> arrayList1 = new ArrayList<>();
+		
+	}
+}

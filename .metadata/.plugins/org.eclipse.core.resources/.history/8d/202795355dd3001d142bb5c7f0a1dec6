@@ -1,0 +1,34 @@
+package sec1;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+
+public class HashMapEx1 {
+	public static void main(String[] args){
+		Map<String, String> map1 = new HashMap<String, String>();
+		map1.put("name", "조교행");
+		map1.put("age", "20");
+		map1.put("blood", "B");
+		
+		// HashMap의 순회1(Entry를 사용한 요소 접근)
+		for(Entry<String, String> entry1 : map1.entrySet()){
+			System.out.println("[key] : "+entry1.getKey()+ "[Value] : "+entry1.getValue());
+		}
+		
+		System.out.println("----------------------------------");
+		
+		Map<Integer, String> map2 = new HashMap<>();
+		map2.put(1, "수박");
+		map2.put(2, "배");
+		map2.put(3, "바나나");
+		map2.put(1, "WaterMelon");
+		
+		// HashMap의 순회1(Entry를 사용한 요소 접근)
+		for(Entry<Integer, String> entry2 : map2.entrySet()){
+			System.out.println("[key] : "+entry2.getKey()+ "[Value] : "+entry2.getValue());
+		}
+		
+		System.out.println("----------------------------------");
+	}
+}
