@@ -1,0 +1,10 @@
+package ch17;
+
+public class DBConnector {
+	// 연결에 필요한 상수 선언
+	private final static String DRIVER = "oracle.jdbc.OracleDriver";
+	private final static String URL = "jdbc:oracle:thin:@localhost:1521:xe";
+	private final static String USERNAME = "system";
+	private final static String PASSWORD = "1234";
+	
+}

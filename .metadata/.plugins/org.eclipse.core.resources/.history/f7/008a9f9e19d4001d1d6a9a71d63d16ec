@@ -1,0 +1,14 @@
+package sec1;
+class MyFunction4{
+	int add(int x, int y){	return x+y;	}
+	int sub(int x, int y){	return x-y;	}
+	int mul(int x, int y){	return x*y;	}
+	double div(int x, int y){	return (double)x/y;	}
+	
+}
+public class FunctionEx4 {
+
+	public static void main(String[] args) {
+		
+	}
+}

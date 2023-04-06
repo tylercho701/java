@@ -1,0 +1,8 @@
+package ch17;
+
+public class OracleEx1 {
+
+	public static void main(String[] args) {
+		
+	}
+}

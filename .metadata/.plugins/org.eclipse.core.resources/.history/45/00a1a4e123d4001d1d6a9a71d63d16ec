@@ -1,0 +1,14 @@
+package sec1;
+
+@FunctionalInterface
+interface MyFnc3 {
+	void fnc3(int i);
+}
+public class LambdaEx3 {
+
+	public static void main(String[] args) {
+		MyFnc3 f1 = (a) -> { System.out.println(a+"가 입력 되었습니다.");
+		f1.fnc3(100);
+		};
+	}
+}

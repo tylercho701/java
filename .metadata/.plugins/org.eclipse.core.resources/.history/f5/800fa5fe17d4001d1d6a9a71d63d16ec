@@ -1,0 +1,13 @@
+package sec1;
+class MyFunction2 {
+	int method2(){
+		return 1004;
+	}
+}
+public class FunctionEx2 {
+
+	public static void main(String[] args) {
+		MyFunction2 f2 = new MyFunction2();
+		f2.method2()
+	}
+}

@@ -1,0 +1,33 @@
+package ch17;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+public class OracleEx1 {
+	static Connection conn = null;
+	static PreparedStatement pstmt = null;
+	static ResultSet rs = null;
+
+	public static void main(String[] args) {
+		String sql = "select * from tbl_member_202201";
+		conn = DBConnector.getConnection();
+		ArrayList<Member> memList = new ArrayList<>();
+		try {
+			pstmt = conn.prepareStatement(sql);
+			rs = pstmt.executeQuery();
+			while(rs.next()){
+				System.out.print(rs.getInt("Member_seq")+"\t");
+				System.out.print(rs.getString("c_no")+"\t");
+				System.out.println(rs.getString("c_name")+"\t");
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
+}
