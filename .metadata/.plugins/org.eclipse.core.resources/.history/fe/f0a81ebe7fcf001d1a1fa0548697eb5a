@@ -1,7 +1,0 @@
-package sec6;
-
-public class RegEx1 {
-	public static void main(String[] args){
-		
-	}
-}

@@ -1,0 +1,36 @@
+package ch17;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+public class MySQLEx1 {
+	static Connection conn = null;
+	static PreparedStatement pstmt = null;
+	static ResultSet rs = null;
+	
+	public static void main(String[] args) {
+		String sql = "select * from test2";
+		conn = MySQL.getConnection();
+		ArrayList<Test2> test2List = new ArrayList<>();
+		try {
+			pstmt = conn.prepareStatement(sql);
+			rs = pstmt.executeQuery();
+			while(rs.next()){
+				Test2 test2 = new Test2();
+				test2.setId(rs.getString("id"));
+				test2.setPw(rs.getString("pw"));
+				test2.setName(rs.getString("name"));
+				test2List.add(test2);
+			}
+			DBConnector.close(conn, pstmt, rs);
+		} catch (SQLException e) {
+			System.out.println("오류 발생");
+		}
+		for(Test2 t : test2List){
+			System.out.println(t.toString());
+		}
+	}
+}

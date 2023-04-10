@@ -1,0 +1,19 @@
+package dbconn_mariadb;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class MariaDBEx3 {
+	static Connection conn = null;
+	static PreparedStatement pstmt = null;
+	
+	public static void main(String[] args) {
+		Course_tbl c = new Course_tbl();
+		
+		c.setId(id);
+		c.setName(name);
+		c.setCredit(credit);
+		c.setLecture(lecture);
+
+	}
+}

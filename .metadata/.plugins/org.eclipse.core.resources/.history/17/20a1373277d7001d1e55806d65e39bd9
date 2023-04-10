@@ -1,0 +1,17 @@
+package dbconn_mariadb;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class MariaDBEx1 {
+	static Connection conn = null;
+	static PreparedStatement pstmt = null;
+	static ResultSet rs = null;
+
+	public static void main(String[] args) {
+		String sql = "select * from course_tbl";
+		conn = DBC.getConnection();
+		ArrayList<Course_tbl>
+	}
+}

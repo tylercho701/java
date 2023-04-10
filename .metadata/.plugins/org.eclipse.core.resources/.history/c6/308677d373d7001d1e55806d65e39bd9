@@ -1,0 +1,5 @@
+package dbconn_mariadb;
+
+public class Course_tbl {
+
+}

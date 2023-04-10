@@ -1,6 +1,0 @@
-package sec1;
-
-public class Member<T> {
-	private T id;
-	private T no;
-}
