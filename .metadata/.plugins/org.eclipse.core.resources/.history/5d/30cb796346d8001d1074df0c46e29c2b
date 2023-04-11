@@ -1,0 +1,34 @@
+package dbconn_postgresql;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+public class PostgreEx1 {
+	static Connection conn = null;
+	static PreparedStatement pstmt = null;
+	static ResultSet rs = null;
+	
+	public static void main(String[] args) {
+		String sql = "select * from tbl_emp_202108";
+		conn = Postgre.getConnection();
+		ArrayList<Emp> empList = new ArrayList<>();
+		
+		try {
+			pstmt = conn.prepareStatement(sql);
+			rs = pstmt.executeQuery();
+			while(rs.next()){
+				Emp emp = new Emp();
+				emp.setEmpno(rs.getString("empno"));
+				emp.setEmpname(rs.getString("empname"));
+				
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+}

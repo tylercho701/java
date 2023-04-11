@@ -1,0 +1,10 @@
+package dbconn_postgresql;
+
+public class PostgreEx1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
